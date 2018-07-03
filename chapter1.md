@@ -4,42 +4,6 @@ description: Test
 
 
 ---
-## <<<New Exercise>>>
-
-```yaml
-type: NormalExercise
-key: ffae75d4b1
-lang: python
-xp: 100
-skills: 2
-```
-
-
-`@instructions`
-
-`@hint`
-
-`@pre_exercise_code`
-```{python}
-
-```
-
-`@sample_code`
-```{python}
-
-```
-
-`@solution`
-```{python}
-
-```
-
-`@sct`
-```{python}
-
-```
----
-
 ## An exercise title written in sentence case
 
 ```yaml
