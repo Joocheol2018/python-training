@@ -1,8 +1,8 @@
 ---
-title       : Insert the chapter title here
+title       : Day 1
 description : Insert the chapter description here
 ---
-## <<<New Exercise>>>
+## Hello, World!
 
 ```yaml
 type: NormalExercise
@@ -46,22 +46,72 @@ print("This line will be printed.")
 
 
 ---
-## <<<New Exercise>>>
+## Indentation
 
 ```yaml
-type: MultipleChoiceExercise
-key: 7e38b59c16
+type: NormalExercise
+key: e14199587b
 lang: python
-xp: 50
+xp: 100
 skills: 2
 ```
-
+Python uses indentation for blocks, instead of curly braces. Both tabs and spaces are supported, but the standard indentation requires standard Python code to use four spaces. For example:
 
 `@instructions`
 
 `@hint`
 
 `@pre_exercise_code`
+```{python}
+
+```
+
+`@sample_code`
+```{python}
+x = 1
+if x == 1:
+    # indented four spaces
+    print("x is 1.")
+```
+
+`@solution`
+```{python}
+
+```
+
+`@sct`
+```{python}
+
+```
+
+
+---
+## Exercise
+
+```yaml
+type: NormalExercise
+key: 5485a53dc2
+lang: python
+xp: 100
+skills: 2
+```
+Use the "print" command to print the line "Hello, World!".
+
+`@instructions`
+
+`@hint`
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sample_code`
+```{python}
+print("Goodbye, World!")
+```
+
+`@solution`
 ```{python}
 
 ```
