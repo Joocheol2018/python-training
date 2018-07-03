@@ -1,65 +1,204 @@
 ---
-title: Getting Hellp
-description: Test
-
-
+title       : 1/5
+description : 1/5
 ---
-## An exercise title written in sentence case
+## Hello, World!
 
 ```yaml
 type: NormalExercise
+key: 4ecd287fb4
 lang: python
 xp: 100
 skills: 2
-key: 728614e030
 ```
+Python is a very simple language, and has a very straightforward syntax. It encourages programmers to program without prepared code. The simplest directive in Python is the "print" directive - it simply prints out a line (and also includes a newline, unlike in C).
 
-This is the assignment text. It should help provide students with the background information needed.
-The instructions that follow should be in bullet point form with clear guidance for what is expected.
+There are two major Python versions, Python 2 and Python 3. Python 2 and 3 are quite different. This tutorial uses Python 3, because it more semantically correct and supports newer features.
 
-`@instructions`
-- Instruction 1
-- Instruction 2
-- Instruction 3
+For example, one difference between Python 2 and 3 is the print statement. In Python 2, the "print" statement is not a function, and therefore it is invoked without parentheses. However, in Python 3, it is a function, and must be invoked with parentheses.
+
+
+To print a string in Python 3, just write:
 
 `@hint`
-- Here is the hint for this setup problem. 
-- It should get students 50% of the way to the correct answer.
-- So don't provide the answer, but don't just reiterate the instructions.
-- Typically one hint per instruction is a sensible amount.
 
 `@pre_exercise_code`
-
 ```{python}
-# Load datasets and packages here.
+
 ```
 
 `@sample_code`
-
 ```{python}
-# Your
-# sample
-# code
-# should
-# be
-# ideally
-# 10 lines or less,
-# with a max
-# of 16 lines.
+print("This line will be printed.")
+
 ```
 
 `@solution`
-
 ```{python}
-# Answer goes here
-# Make sure to match the comments with your sample code
-# to help students see the differences from solution
-# to given.
+
 ```
 
 `@sct`
-
 ```{python}
-# Update this to something more informative.
-success_msg("Some praise! Then reinforce a learning objective from the exercise.")
+
+```
+
+
+
+---
+## Indentation
+
+```yaml
+type: NormalExercise
+key: e14199587b
+lang: python
+xp: 100
+skills: 2
+```
+Python uses indentation for blocks, instead of curly braces. Both tabs and spaces are supported, but the standard indentation requires standard Python code to use four spaces. For example:
+
+`@instructions`
+
+`@hint`
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sample_code`
+```{python}
+x = 1
+if x == 1:
+    # indented four spaces
+    print("x is 1.")
+```
+
+`@solution`
+```{python}
+
+```
+
+`@sct`
+```{python}
+
+```
+
+
+---
+## Exercise
+
+```yaml
+type: NormalExercise
+key: 5485a53dc2
+lang: python
+xp: 100
+skills: 2
+```
+Use the "print" command to print the line "Hello, World!".
+
+`@instructions`
+
+`@hint`
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sample_code`
+```{python}
+print("Goodbye, World!")
+```
+
+`@solution`
+```{python}
+
+```
+
+`@sct`
+```{python}
+
+```
+
+
+---
+## Numbers(1/2)
+
+```yaml
+type: NormalExercise
+key: e8c4db2521
+lang: python
+xp: 100
+skills: 2
+```
+
+Python supports two types of numbers - integers and floating point numbers. (It also supports complex numbers, which will not be explained in this tutorial).
+
+To define an integer, use the following syntax:
+
+
+`@instructions`
+
+`@hint`
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sample_code`
+```{python}
+myint = 7
+print(myint)
+```
+
+`@solution`
+```{python}
+
+```
+
+`@sct`
+```{python}
+
+```
+
+
+---
+## Numbers(2/2)
+
+```yaml
+type: NormalExercise
+key: 4d80a90feb
+lang: python
+xp: 100
+skills: 2
+```
+
+To define a floating point number, you may use one of the following notations:
+`@instructions`
+
+`@hint`
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sample_code`
+```{python}
+myfloat = 7.0
+print(myfloat)
+myfloat = float(7)
+print(myfloat)
+```
+
+`@solution`
+```{python}
+
+```
+
+`@sct`
+```{python}
+
 ```
