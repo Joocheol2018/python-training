@@ -253,7 +253,7 @@ print(mystring)
 
 
 ---
-## <<<New Exercise>>>
+## strings
 
 ```yaml
 type: NormalExercise
@@ -335,6 +335,45 @@ if isinstance(myint, int) and myint == 20:
     print("Integer: %d" % myint)
 
 ```
+
+`@solution`
+```{python}
+
+```
+
+`@sct`
+```{python}
+
+```
+
+---
+## Arithmetic Operators
+
+```yaml
+type: NormalExercise
+key: 84dd9f5bfd
+lang: python
+xp: 100
+skills: 2
+```
+Just as any other programming languages, the addition, subtraction, multiplication, and division operators can be used with numbers
+
+`@instructions`
+
+`@hint`
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sample_code`
+```{python}
+number = 1 + 2 * 3 / 4.0
+print(number)
+```
+
+
 
 `@solution`
 ```{python}
