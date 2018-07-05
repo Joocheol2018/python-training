@@ -1,6 +1,6 @@
 ---
-title       : 1/5
-description : 1/5
+title       : Let's start!
+description : Simple
 ---
 ## Hello, World!
 
@@ -414,6 +414,45 @@ Another operator available is the modulo (%) operator, which returns the integer
 ```{python}
 remainder = 11 % 3
 print(remainder)
+```
+
+`@solution`
+```{python}
+
+```
+
+`@sct`
+```{python}
+
+```
+
+---
+## Power
+
+```yaml
+type: NormalExercise
+key: 44fa64a236
+lang: python
+xp: 100
+skills: 2
+```
+Using two multiplication symbols makes a power relationship.
+
+`@instructions`
+
+`@hint`
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sample_code`
+```{python}
+squared = 7 ** 2
+cubed = 2 ** 3
+print(squared)
+print(cubed)
 ```
 
 `@solution`
