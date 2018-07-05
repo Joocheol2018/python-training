@@ -1,8 +1,8 @@
 ---
-title       : Day 1
-description : Insert the chapter description here
+title       : Contol the flow!
+description : Loop and If
 ---
-## Hello, World!
+## Loop
 
 ```yaml
 type: NormalExercise
@@ -11,14 +11,9 @@ lang: python
 xp: 100
 skills: 2
 ```
-Python is a very simple language, and has a very straightforward syntax. It encourages programmers to program without boilerplate (prepared) code. The simplest directive in Python is the "print" directive - it simply prints out a line (and also includes a newline, unlike in C).
+There are two types of loops in Python, for and while.
 
-There are two major Python versions, Python 2 and Python 3. Python 2 and 3 are quite different. This tutorial uses Python 3, because it more semantically correct and supports newer features.
-
-For example, one difference between Python 2 and 3 is the print statement. In Python 2, the "print" statement is not a function, and therefore it is invoked without parentheses. However, in Python 3, it is a function, and must be invoked with parentheses.
-
-
-To print a string in Python 3, just write:
+For loops iterate over a given sequence. Here is an example:
 
 `@hint`
 
@@ -29,7 +24,9 @@ To print a string in Python 3, just write:
 
 `@sample_code`
 ```{python}
-print("This line will be printed.")
+primes = [2, 3, 5, 7]
+for prime in primes:
+    print(prime)
 
 ```
 
@@ -46,7 +43,7 @@ print("This line will be printed.")
 
 
 ---
-## Indentation
+## For loop
 
 ```yaml
 type: NormalExercise
@@ -55,7 +52,7 @@ lang: python
 xp: 100
 skills: 2
 ```
-Python uses indentation for blocks, instead of curly braces. Both tabs and spaces are supported, but the standard indentation requires standard Python code to use four spaces. For example:
+For loops can iterate over a sequence of numbers using the "range" and "xrange" functions. The difference between range and xrange is that the range function returns a new list with numbers of that specified range, whereas xrange returns an iterator, which is more efficient. (Python 3 uses the range function, which acts like xrange). Note that the range function is zero based.
 
 `@instructions`
 
@@ -68,10 +65,17 @@ Python uses indentation for blocks, instead of curly braces. Both tabs and space
 
 `@sample_code`
 ```{python}
-x = 1
-if x == 1:
-    # indented four spaces
-    print("x is 1.")
+# Prints out the numbers 0,1,2,3,4
+for x in range(5):
+    print(x)
+
+# Prints out 3,4,5
+for x in range(3, 6):
+    print(x)
+
+# Prints out 3,5,7
+for x in range(3, 8, 2):
+    print(x)
 ```
 
 `@solution`
