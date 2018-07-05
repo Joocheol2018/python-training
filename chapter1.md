@@ -356,7 +356,9 @@ lang: python
 xp: 100
 skills: 2
 ```
-Just as any other programming languages, the addition, subtraction, multiplication, and division operators can be used with numbers
+Just as any other programming languages, the addition, subtraction, multiplication, and division operators can be used with numbers.
+
+Try to predict what the answer will be. Does python follow order of operations?
 
 `@instructions`
 
@@ -374,6 +376,45 @@ print(number)
 ```
 
 
+
+`@solution`
+```{python}
+
+```
+
+`@sct`
+```{python}
+
+```
+
+---
+## Modulo
+
+```yaml
+type: NormalExercise
+key: 16154e14c6
+lang: python
+xp: 100
+skills: 2
+```
+Another operator available is the modulo (%) operator, which returns the integer remainder of the division. dividend % divisor = remainder.
+
+
+`@instructions`
+
+
+`@hint`
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sample_code`
+```{python}
+remainder = 11 % 3
+print(remainder)
+```
 
 `@solution`
 ```{python}
