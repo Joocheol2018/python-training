@@ -45,6 +45,49 @@ print("This line will be printed.")
 
 
 
+
+---
+## Comments
+
+```yaml
+type: NormalExercise
+key: f3b5cadb49
+lang: python
+xp: 100
+skills: 2
+```
+
+Many of the examples in this manual, even those entered at the interactive prompt, include comments. Comments in Python start with the hash character, #, and extend to the end of the physical line. A comment may appear at the start of a line or following whitespace or code, but not within a string literal. A hash character within a string literal is just a hash character. Since comments are to clarify code and are not interpreted by Python, they may be omitted when typing in examples.
+
+`@instructions`
+
+`@hint`
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sample_code`
+```{python}
+# this is the first comment
+spam = 1  # and this is the second comment
+          # ... and now a third!
+text = "# This is not a comment because it's inside quotes."
+
+print(spam)
+print(text)
+```
+
+`@solution`
+```{python}
+
+```
+
+`@sct`
+```{python}
+
+```
 ---
 ## Indentation
 
@@ -123,7 +166,7 @@ print("Goodbye, World!")
 
 
 ---
-## Numbers(1/2)
+## Numbers - Integers
 
 ```yaml
 type: NormalExercise
@@ -165,7 +208,7 @@ print(myint)
 
 
 ---
-## Numbers(2/2)
+## Numbers - Floating Point Numbers
 
 ```yaml
 type: NormalExercise
