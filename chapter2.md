@@ -90,7 +90,7 @@ for x in range(3, 8, 2):
 
 
 ---
-## Exercise
+## If statemants
 
 ```yaml
 type: NormalExercise
@@ -99,7 +99,7 @@ lang: python
 xp: 100
 skills: 2
 ```
-Use the "print" command to print the line "Hello, World!".
+Perhaps the most well-known statement type is the if statement. For example:
 
 `@instructions`
 
@@ -112,7 +112,18 @@ Use the "print" command to print the line "Hello, World!".
 
 `@sample_code`
 ```{python}
-print("Goodbye, World!")
+x = int(input("Please enter an integer: "))
+
+if x < 0:
+    x = 0
+    print('Negative changed to zero')
+elif x == 0:
+    print('Zero')
+elif x == 1:
+    print('Single')
+else:
+    print('More')
+
 ```
 
 `@solution`

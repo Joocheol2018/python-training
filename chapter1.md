@@ -249,7 +249,7 @@ print(myfloat)
 
 
 ---
-## Strings
+## Strings (1/2)
 
 ```yaml
 type: NormalExercise
@@ -296,7 +296,7 @@ print(mystring)
 
 
 ---
-## strings
+## Strings (2/2)
 
 ```yaml
 type: NormalExercise
